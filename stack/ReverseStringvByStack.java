@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class ReverseStringByStack{
+public class ReverseStringvByStack{
      public static String reverseString(String str){
         Stack<Character> s = new Stack<>();
         int idx=0;
@@ -16,7 +16,8 @@ public class ReverseStringByStack{
         }
         return result.toString();
      }
-
+    
+ 
      public static void main(String args[]) {
         String str="abcd";
         String result = reverseString(str);

@@ -42,7 +42,7 @@ public class detectloopcyle {
       slow = head;
       Node prev = null;
       while(slow!=fast){
-        prev=fast;
+        prev = fast;
         slow = slow.next;
         fast = fast.next;
       }
