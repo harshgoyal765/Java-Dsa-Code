@@ -63,7 +63,7 @@ public class recursion {
     }
     public static int lastoccurance(int arr2[],int key , int i){
       
-      if(i==arr2.length-1){
+      if(i==arr2.length){
         return -1;
       }
       int isfound=lastoccurance(arr2,key,i+1);
