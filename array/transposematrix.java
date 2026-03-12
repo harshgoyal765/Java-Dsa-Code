@@ -1,6 +1,6 @@
 public class transposematrix {
     public static void transpose(int matrixa[][],int matrixb[][] ){
-        for(int i=0 ; i<matrixa.length ; i++){
+        for(int i=0 ; i<matrix.length ; i++){
             for(int j=0 ; j<matrixa[0].length ; j++){
                
                matrixb[j][i]=matrixa[i][j];
